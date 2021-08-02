@@ -16,7 +16,7 @@ window.dataLayer.push({
         id: 'product_id_1', //ID van het product type (a4/a5)
         name: 'A5 - Folder',
         category: 'Foldergemak verzorgt het drukwerk', //foldergemak of ik
-        quantity: 2434, //aantal huishoudens
+        quantity: 25778, //aantal huishoudens
         price: '1572.23' //Totaal van drukwerk + bezorging
       }]
     }
