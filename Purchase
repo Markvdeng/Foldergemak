@@ -1,0 +1,24 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'eec.purchase',
+  ecommerce: {
+    currencyCode: 'EUR',
+    purchase: {
+      actionField: {
+        id: 'transaction_id', //interne ID van de bestelling
+        affiliation: 'Foldergemak',
+        revenue: '1654.18', //totaalbedrag incl. alles
+        tax: '67.72', //evt. belasting
+        shipping: '75.00', //Bundeling en transport
+        coupon: 'DISCOUNTCODE' //Actiecode gebruikt
+      },
+      products: [{
+        id: 'product_id_1', //ID van het product type (a4/a5)
+        name: 'A5 - Folder',
+        category: 'Foldergemak verzorgt het drukwerk', //foldergemak of ik
+        quantity: 2434, //aantal huishoudens
+        price: '1572.23' //Totaal van drukwerk + bezorging
+      }]
+    }
+  }
+});
